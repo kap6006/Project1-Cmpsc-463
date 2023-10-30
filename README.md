@@ -13,11 +13,11 @@ Generally quicksort is preferable to use over heapsort because of the constant f
 
 ## Time Complexity Benchmark Testing
 For testing time complexity I used the time library and plotted the array size vs time elapsed. I took the average time for 10 runs for each array size because there can be a lot of variability between runs because of resource usage within the computer and different kinds of luck based on the random list generated and the pivots chosen. The runtimes were similar for quicksort and introsort as I expected because the majority of introsort is using quicksort. Heapsort had the longest runtimes as expected due to constant factors that are ignored in asymptotic runtime.
-![Runtime graph](https://raw.github.com/kap6006/Project1-Cmpsc-463/master/Project1-Cmpsc-463)
+![runtime](runtimegraph.png)
 
 ## Space Complexity Benchmark Testing
 For testing memory usage I used the tracemalloc library and plotted the array size vs memory usage. The experimental results did not match my expectations. I think this is because my implementation of heapsort and introsort are not optimal in terms of using the least amount of memory possible. Heapsort should have had the smallest memory usage but my implementation had the largest of the three algorithms compared.
-
+![memoryusage](memusagegraph.png)
 
 ## Sources
 https://aquarchitect.github.io/swift-algorithm-club/Introsort/
