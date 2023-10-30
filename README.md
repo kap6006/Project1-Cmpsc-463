@@ -21,3 +21,4 @@ For testing memory usage I used the tracemalloc library and plotted the array si
 ## Sources
 https://aquarchitect.github.io/swift-algorithm-club/Introsort/
 https://www.geeksforgeeks.org/introsort-or-introspective-sort/
+https://www.geeksforgeeks.org/quick-sort/
